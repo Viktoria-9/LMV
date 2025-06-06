@@ -13,7 +13,7 @@
         h1 {
             color: #000000;
         }
-        h4{
+        h4 {
             font-weight: bold;
             margin-top: 10px;
             color: #2e7d32;
@@ -22,64 +22,91 @@
             margin-left: 20px;
             margin-bottom: 10px;
         }
+        .entry {
+            margin-bottom: 20px;
+        }
+        #searchBox {
+            padding: 8px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 400px;
+        }
     </style>
 </head>
 <body>
     <h1>Глосарій</h1>
-    <table>        
-        <tr>
-            <h4>Календар (неділя та понеділок)</h4>
-            <p>Ці дні для усіх майстрів - вихідні.</p>
-        </tr>
-        <tr>
-            <h4>Класичне 1D</h4>
-            <img src="https://barb.ua/uploads/2024_/05/11/1517956/c/gallery-preview.jpg" alt="1D" width="150px" height="150px">
-            <p>Класична техніка, за якої до кожної натуральної вії додається одна штучна.</p>
-        </tr>
 
-        <tr>
-            <h4>Куточки</h4>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAqmTqZHssgD4475caTJBskzRmE-wiw_Ck_g&s" alt="classic" width="150px" height="150px">
-            <p>Техніка, за якої штучні вії додаються тільки до зовнішніх куточків очей.</p>
-        </tr>
+    <input type="text" id="searchBox" placeholder="Пошук...">
 
-        <tr>
-            <h4>Майстер</h4>
-            <p>Людина з досвідом роботи від 1 до 3 років у конкретній сфері.</p>
-        </tr>
+    <div class="entry">
+        <h4>Календар (неділя та понеділок)</h4>
+        <p>Ці дні для усіх майстрів - вихідні.</p>
+    </div>
 
-        <tr>
-            <h4>Педикюр (тільки чистка)</h4>
-            <img src="https://www.bellezza.ua/storage/app/media/Podologiya/medicinskiy%20pedicur.jpg" alt="legs" width="200px" height="200px">
-            <p>Професійна косметична процедура з видалення загрубілої шкіри, тріщин і мозолів з п'ят для їх пом'якшення, оздоровлення та поліпшення зовнішнього вигляду. Ретельна обробка та естетичний догляд за нігтями та шкірою пальців ніг.</p>
-        </tr>
+    <div class="entry">
+        <h4>Класичне 1D</h4>
+        <img src="https://barb.ua/uploads/2024_/05/11/1517956/c/gallery-preview.jpg" alt="1D" width="150px" height="150px">
+        <p>Класична техніка, за якої до кожної натуральної вії додається одна штучна.</p>
+    </div>
 
-        <tr>
-            <h4>Подвійний об’єм 2D</h4>
-            <img src="https://www.tufishop.com.ua/images/thumbnails/1000/1000/detailed/136/569000__11__446j-p7.webp" alt="2D" width="150px" height="150px">
-            <p>Техніка, за якої до кожної натуральної вії кріпляться дві тонкі штучні, створюючи легкий об'єм.</p>
-        </tr>
+    <div class="entry">
+        <h4>Куточки</h4>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAqmTqZHssgD4475caTJBskzRmE-wiw_Ck_g&s" alt="classic" width="150px" height="150px">
+        <p>Техніка, за якої штучні вії додаються тільки до зовнішніх куточків очей.</p>
+    </div>
 
-        <tr>
-            <h4>Потрібний об’єм 3D</h4>
-            <img src="https://ireland.apollo.olxcdn.com/v1/files/ikggit34rkut2-UA/image;s=1080x1080" alt="3D" width="150px" height="150px">
-            <p>Метод, за якого до кожної натуральної вії прикріплюють три тонкі штучні, створюючи густий і об'ємний ефект.</p>
-        </tr>
+    <div class="entry">
+        <h4>Майстер</h4>
+        <p>Людина з досвідом роботи від 1 до 3 років у конкретній сфері.</p>
+    </div>
 
-        <tr> 
-            <h4>Сторінка послуги та ціни</h4>
-            <p>Ця сторінка використовується користувачем для інформування про послуги, що надаються у салоні та ціни на них.</p>
-        </tr>
-            <h4>Топ майстер</h4>
-            <p>Людина з досвідом роботи від 3 до 5 років у конкретній сфері.</p>
-        </tr>
+    <div class="entry">
+        <h4>Педикюр (тільки чистка)</h4>
+        <img src="https://www.bellezza.ua/storage/app/media/Podologiya/medicinskiy%20pedicur.jpg" alt="legs" width="200px" height="200px">
+        <p>Професійна косметична процедура з видалення загрубілої шкіри...</p>
+    </div>
 
-        <tr>
-            <h4>Японський манікюр</h4>
-            <img src="https://www.number1.in.ua/salon/manikur/japan/posle/japanposle1.jpg" alt="manik" width="200px" height="200px">
-            <p>Еко-манікюр із втиранням мінералів та вітамінів у нігтьову пластину.</p>
-        </tr>
-        <tr>
-    </table>
+    <div class="entry">
+        <h4>Подвійний об’єм 2D</h4>
+        <img src="https://www.tufishop.com.ua/images/thumbnails/1000/1000/detailed/136/569000__11__446j-p7.webp" alt="2D" width="150px" height="150px">
+        <p>Техніка, за якої до кожної натуральної вії кріпляться дві тонкі штучні...</p>
+    </div>
+
+    <div class="entry">
+        <h4>Потрібний об’єм 3D</h4>
+        <img src="https://ireland.apollo.olxcdn.com/v1/files/ikggit34rkut2-UA/image;s=1080x1080" alt="3D" width="150px" height="150px">
+        <p>Метод, за якого до кожної натуральної вії прикріплюють три тонкі штучні...</p>
+    </div>
+
+    <div class="entry">
+        <h4>Сторінка послуги та ціни</h4>
+        <p>Ця сторінка використовується користувачем для інформування про послуги...</p>
+    </div>
+
+    <div class="entry">
+        <h4>Топ майстер</h4>
+        <p>Людина з досвідом роботи від 3 до 5 років у конкретній сфері.</p>
+    </div>
+
+    <div class="entry">
+        <h4>Японський манікюр</h4>
+        <img src="https://www.number1.in.ua/salon/manikur/japan/posle/japanposle1.jpg" alt="manik" width="200px" height="200px">
+        <p>Еко-манікюр із втиранням мінералів та вітамінів у нігтьову пластину.</p>
+    </div>
+
+    <script>
+        const searchBox = document.getElementById('searchBox');
+        const entries = document.querySelectorAll('.entry');
+
+        searchBox.addEventListener('input', function () {
+            const query = this.value.toLowerCase();
+
+            entries.forEach(entry => {
+                const text = entry.textContent.toLowerCase();
+                entry.style.display = text.includes(query) ? 'block' : 'none';
+            });
+        });
+    </script>
 </body>
 </html>
